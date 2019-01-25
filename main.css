@@ -1,0 +1,357 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.bg-custom {
+    background-image: linear-gradient(to top, rgb(5, 5, 5), rgb(30, 30, 30));
+}
+
+.bg-custom1 {
+    background-color: rgb(255, 175, 231) !important;
+}
+
+.bg-custom2 {
+    background-image: linear-gradient(to bottom, rgb(5, 5, 5), rgb(30, 30, 30));
+}
+
+#pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+#quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.jumbotron {
+    min-height: 600px;
+}
+
+
+#fixed-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#buynowbutton {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#buynowbuttonhome {
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+  .fade-in {
+      animation: fadeIn 2s;
+  }
+
+#form-align {
+    margin: 0 auto; 
+    width:250px;
+    text-align: center; 
+}
+
+
+
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .aboutme { 
+       font-size: 15px; 
+    }
+    #carouselimages {
+        height: 350px;
+    }
+    body .shirtheader {
+        font-size: 55px;
+    }
+    body .shirtimage {
+        width: 300px;
+        height: 300px;
+    }
+    body .successcontent {
+        font-size: 18px;
+    }
+    body .successfooter {
+        font-size: 30px;
+    }
+    body .successtitle {
+        font-size: 30px;
+    }
+ }
+
+ @media screen and (min-width: 500px) {
+    .aboutme { 
+   font-size: 18px; 
+    }
+}
+
+ @media screen and (min-width: 1000px) {
+    .aboutme { 
+   font-size: 21px; 
+    }
+}
+
+p {
+    margin-bottom: 0px !important; 
+}
+
+
+.sizeraleway {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.addtocartbutton {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sizedropdown {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.shirt-name {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.shirt-price {
+    font-size:17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.shirtimage {
+    width: 275px;
+    height: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container1 div, .container-2 div {
+    border: 3px black solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-1-box {
+    flex-basis: 19%;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shirtheader {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.shirtsubheader {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cardtext {
+    font-size: 16px !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navheaders {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.navdropdown {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-2-box {
+    flex-basis: 80%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.successtitle {
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.successcontent {
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.successfooter {
+    margin-top: 20px;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Style the Image Used to Trigger the Modal */
+ .myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto !important; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin-top: 50px;
+    
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
